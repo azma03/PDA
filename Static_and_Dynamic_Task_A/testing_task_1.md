@@ -20,7 +20,8 @@ class CardGame
     end
   end
 
-  dif highest_card(card1 card2)  #incorrect keyword "dif". Use "def" instead. Missing comma between the two parameters.
+  dif highest_card(card1 card2)  #incorrect keyword "dif". Use "def" instead.
+                                #Missing comma between the two parameters.
   if card1.value > card2.value
     return card.name   #incorrect variable name 'card' and property 'name'.
   else
@@ -33,7 +34,8 @@ def self.cards_total(cards)  #this method should be within the class definition.
   total  #initialization is missing
   for card in cards
     total += card.value #convert the value to int before adding it to the total
-    return "You have a total of" + total   #this return statement should be outside for loop. Also interpolate total variable to display as a string
+    return "You have a total of" + total   #this return statement should be outside for loop.
+                                          #Also interpolate total variable to display as a string
   end
 end
 
